@@ -1,0 +1,8 @@
+class Samplen
+{
+public static void main(String args[])
+{
+System.out.print("\tName:Anzil\n");
+System.out.print("\tAge:24");
+}
+}
