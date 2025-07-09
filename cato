@@ -1,0 +1,21 @@
+class Category
+{
+public static void main(String args[])
+{
+int age=15;
+if(age>=1 && age<18)
+{
+System.out.println("child");
+}
+else if(age>=18 && age<45)
+{
+System.out.println("child");
+}
+else if(age>=45)
+{
+System.out.println("Senior citizen");
+}
+else
+{
+System.out.println("infants");
+}}}
