@@ -1,0 +1,19 @@
+class SwapNumbers {
+    public static void main(String args[]) {  
+        int a = Integer.parseInt(args[0]);
+        int b = Integer.parseInt(args[1]);
+        
+        System.out.println("Before Swapping:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        
+        // Swapping without temp variable using arithmetic operations
+        a = a + b;  // a now contains sum of both numbers
+        b = a - b;  // b now contains original value of a
+        a = a - b;  // a now contains original value of b
+        
+        System.out.println("After Swapping:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
+}
