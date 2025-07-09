@@ -1,0 +1,12 @@
+class Variables
+{
+static float b=1.2f;
+//String c="Java";
+public static void main(String args[])
+{
+int a=5;
+System.out.println("localvalue:"+a);
+System.out.println("Staticvalue:"+b);
+//System.out.println("Instancevalue:"+c);
+}
+}
